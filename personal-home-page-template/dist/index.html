@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Personal Home Page  Template</title>
+  <link rel='stylesheet' href='https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/prettify.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+
+<head>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<title>xxx</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+       <script>
+
+         $(document).ready(function(){
+   
+   $('#comment').click(function(){
+       var input=$('#input').val();
+       $('.box1').append(input + '<br>');
+       $('#input').val(''); 
+       $('.box-container').slideDown();  
+   });
+   $('#cancel').click(function()
+       {$('#input').val('');
+       }); 
+   $('#delete').click(function(){
+    $('.box1').text('');
+    $('.box-container').slideUp();
+
+   });
+    });
+
+       </script>
+</head>
+
+
+	<div class="hero">
+    
+			<h2 class="logo" >Mehmet<span>Omer</span></h2>
+			<nav class="menu" aria-label="Main Site Links.">
+         <ul>
+    <li><a href="#about">About me</a></li>
+    <li><a href="#service">My Service</a></li>
+    <li><a href="#reference">References</a></li>
+    <li><a href="#more">Contact us</a></li>
+    </ul> 
+        </nav>
+
+          
+  <div role="navigation" aria-label="Main">
+    
+    
+    
+</div>
+<nav>
+			<a href="#" class="btn">Call  Me</a>
+		
+    
+    
+    </nav>
+
+		<div class="content">
+			<h4>Hello, my name is</h4>
+      
+			<h1>mehmet  Omer</h1>
+			<header class="c-site-header">I'am a Web Developer.</header>
+			<div class="newslatter">
+				<form>
+					<input type="email" name="email" id="mail" placeholder="Enter Your Email">
+					<input type="submit" name="submit" value="Touch Me">
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!----section ---->
+  
+	<section class="about">
+		<div class="main">
+			<img src="data:image/jpeg;base64,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" alt="My pic">
+			<div class="about-text">
+                  
+        <h2 id='about'>About Me</h2>
+				<h5>Developer <span>& Designer</span></h5>
+				<p>HTML, CSS, and JavaScript[1]
+Server/client side architecture like all or some of the above mentioned
+Programming/coding/scripting in one of the many server-side languages or frameworks (e.g., Perl, Python, Ruby, PHP, Go, Java, ASP.NET, Node.js)
+Ability to utilize a database
+Creating single page application with the use of front-end tools such as Vue,[2] React.js[3] or Angular[4]
+</p>
+                    
+				<button type="button">Let's Talk</button>
+			</div>
+		</div>
+      
+	</section>
+
+	<!-----service section start----------->
+	<div class="service">
+		<div class="title">
+      <h2 id='service'>Our References</h2>
+      <img id="pics" width="100%" height="650">
+<button id="previous">PREVIOUS</button>
+<button id="next">NEXT</button>     
+			<h2 id='service'>Our Services</h2>
+		</div>
+
+		<div class="box">
+			<div class="card">
+				<i class="fas fa-bars"></i>
+				<h5>Web Development</h5>
+				<div class="pra">
+					<p>Web development can range from developing a simple single static page of plain text to complex web applications, electronic businesses, and social network services.</p>
+
+					<p style="text-align: center;">
+						<a class="button"  href="#">£4200</a>
+					</p>
+				</div>
+			</div>
+
+			<div class="card">
+				<i class="far fa-user"></i>
+				<h5>Software Solutions</h5>
+				<div class="pra">
+					<p> A software solution is a program that will perform all the time-consuming tasks and automate regular task catering you ease.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">£3500</a>
+					</p>
+				</div>
+        
+			</div>
+      
+
+			<div class="card">
+				<i class="far fa-bell"></i>
+				<h5>Business Development</h5>
+				<div class="pra">
+					<p>In the simplest terms, business development can be summarized as the ideas, initiatives, and activities that help make a business better.</p>
+
+					<p style="text-align: center;">
+						<a class="button" href="#">
+            £1200</a>
+					</p>
+				</div>
+        
+			</div><div class="card">
+			
+				<h5>Buy a Service</h5>
+				<div class="button"class="pra">
+					<ul id="start"></ul>
+
+					<p>16- digit card number</p>
+				<input id="text" placeholder="Type the card number"/>
+          
+<button class="button" id="add">Add to shopping cart</button> 
+          <ul id="list"></ul>    
+					
+				</div>
+        
+			</div>
+		</div>
+      
+	</div>
+ 
+	<!------Contact Me------>
+	<div class="contact-me">
+		<p id='reference'>Let Me Get You A Beautiful Website.</p>
+		<a class="button-two" href="#">Hire Me</a>
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/HGSR3FDVkkQ" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <!------Commenting------>  
+    <div class="container">
+<input type="text" id="input" placeholder="write your comment here">
+<button type="btn" name="button" id="cancel">Cancel</button>
+<button type="button" name="button" id="comment">Comment</button>
+<div class="box-container">
+<div class="box1"></div>
+<button type="button" name="button" id="delete">Delete</button>
+  
+</div>
+</div>
+                  
+	</div> 
+
+
+	<!------footer --------->
+	<footer class="c-site-footer">
+		<p>Mehmet Omer DEMIR</p>
+		<p id='more'>For more HTML, CSS, and coding tutorial - please click on the link below to subscribe to my channel:</p>
+		<div class="social">
+      
+			<a href="#"><i class="fab fa-linkedin"></i></a>
+			<a href="#"><i class="fab fa-instagram"></i></a>
+			<a href="#"><i class="fab fa-github"></i></a>
+		</div>
+		<p class="end">CopyRight By Mehmet Omer DEMIR</p>
+             
+	</footer>
+<aside id="tests" aria-label="Test Readout." aria-live="polite" style="overflow:auto">
+
+  </aside>
+                                                                                     
+</body>
+<!-- partial -->
+  <script src='https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/core.js'></script>
+<script src='https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/prettify.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
